@@ -11,9 +11,9 @@ python run_relation_gpt.py \
     --prompt_file desc_guid_1shot_021424 \
     --few_shot --retrieval_method knn --top_k 1 \
     --min_count 3 --gpt_model chatgpt \
-    --api_key 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 \
     --temperature 0.0 --max_tokens 4096 --seed 42 \
     --retrieval_model princeton-nlp/sup-simcse-roberta-base \
     --do_test \
+    # --api_key \
     # --sampling --num_debug_samples 3 --num_debug_null 1 \
     # --ckpt_dir "./icl/output/prompt_nli_desc_guid_model_chatgpt_k_0/ckpt/result_150.pkl"
