@@ -60,9 +60,7 @@ def get_args():
     
     # GPT-related args
     # Please refer to https://platform.openai.com/docs/guides/text-generation/parameter-details
-    parser.add_argument('--api_key', type=str, 
-                        default='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',
-                        help='GPT API key')
+    parser.add_argument('--api_key', type=str, required=True, help='GPT API key')
     parser.add_argument('--temperature', type=float, 
                         default=0.0)
     parser.add_argument('--max_tokens', type=int, 
